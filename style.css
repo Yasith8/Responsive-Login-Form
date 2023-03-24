@@ -4,11 +4,9 @@
     box-sizing: border-box;
     font-family: 'poppins';
 }
-
 body {
     background: rgb(89, 92, 255);
 }
-
 .container {
     position: absolute;
     top: 50%;
@@ -17,7 +15,6 @@ body {
     box-shadow: 0 15px 25px rgba(0, 0, 0, .2);
     border-radius: 10px;
 }
-
 form {
     width: 450px;
     height: 450px;
@@ -29,28 +26,23 @@ form {
     padding: 2rem;
     border-radius: 10px;
 }
-
 h1 {
     padding-top: 30px;
     padding-bottom: 20px;
 }
-
 h2 {
     font-weight: 400;
     padding-top: 5px;
     font-size: 20px;
 }
-
 input {
     border: 1px solid gray;
     padding: 8px 20px;
 }
-
 input:focus {
     background-color: #d0daea;
     border: 1px solid #d0daea;
 }
-
 ul {
     display: flex;
     align-items: center;
@@ -58,38 +50,31 @@ ul {
     justify-content: space-between;
     list-style: none;
 }
-
 li {
     margin-top: 10px;
 }
-
 button {
     width: 100px;
     height: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 .submit {
     background-color: #00ff87;
     border: 1px solid #00ff87;
 }
-
 .submit:focus,
 .submit:hover {
     background-color: #00ff33;
 }
-
 .reset {
     background-color: #ff1b6b;
     border: 1px solid #ff1b6b;
     color: white;
 }
-
 .hidden {
     display: none;
 }
-
 .msg {
     background-color: white;
     width: 400px;
@@ -103,19 +88,16 @@ button {
     padding: 20px;
     z-index: 20;
 }
-
 .yes {
     background-color: #00ff33;
     border: 1px solid #00ff33;
     color: white;
 }
-
 .no {
     background-color: red;
     border: 1px solid red;
     color: white;
 }
-
 .overlay {
     position: absolute;
     top: 0;
